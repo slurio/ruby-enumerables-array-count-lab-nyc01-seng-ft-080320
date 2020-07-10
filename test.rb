@@ -1,6 +1,6 @@
 def count
   [1, 2, 3, 4].count do |element|
-  element.even?
+  element.odd?
   end
 end
 
